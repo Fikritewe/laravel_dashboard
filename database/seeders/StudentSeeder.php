@@ -169,7 +169,7 @@ class StudentSeeder extends Seeder
                 'asal_sekolah' => 'SMK Negeri 1 Lobalain',
                 'email' => 'annatraveling640@gmail.com',
             ],
-            #Universitas Brawijaya
+            #UNIVERSITAS BRAWIJAYA
             [
                 'nama_lengkap' => 'Ararya Pramadani Alief Rahman',
                 'jurusan' => 'Teknik Informatika',
@@ -183,10 +183,35 @@ class StudentSeeder extends Seeder
                 'email' => 'azaryasantoso22@gmail.com',
             ],
             [
-                'nama_lengkap' => 'Azarya Santoso',
+                'nama_lengkap' => 'Made Diksa Pitra',
                 'jurusan' => 'Teknik Informatika',
                 'asal_sekolah' => 'Universitas Brawijaya',
-                'email' => 'azaryasantoso22@gmail.com',
+                'email' => 'madediksapitra@gmail.com',
+            ],
+            #POLITEKNIK NEGERI MALANG
+            [
+                'nama_lengkap' => 'Ambar Budiarti',
+                'jurusan' => 'Teknik Elektro',
+                'asal_sekolah' => 'Politeknik Negeri Malang',
+                'email' => 'ambarbudiarti2@gmail.com',
+            ],
+            [
+                'nama_lengkap' => 'M. Fauzan Ardika Akbar',
+                'jurusan' => 'Teknik Elektro',
+                'asal_sekolah' => 'Politeknik Negeri Malang',
+                'email' => 'fauzan.11ipa4.25@gmail.com',
+            ],
+            [
+                'nama_lengkap' => 'Rifqi Candra Setiawan',
+                'jurusan' => 'Teknik Elektro',
+                'asal_sekolah' => 'Politeknik Negeri Malang',
+                'email' => 'candrasetiawan9433@gmail.com',
+            ],
+            [
+                'nama_lengkap' => 'Wahyu Nur Anggoro Wati',
+                'jurusan' => 'Teknik Elektro',
+                'asal_sekolah' => 'Politeknik Negeri Malang',
+                'email' => 'wahyunuraw3102@gmail.com',
             ],
             // Tambahkan data siswa lainnya di sini
         ]);

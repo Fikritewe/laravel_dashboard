@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\ChartController;
+
+Route::get('/chart', [ChartController::class, 'index'])->name('chart.index');
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +19,8 @@ use App\Http\Controllers\StudentController;
 */
 
 Route::get('/', function () {
-    return view('index2');
+    return view ('welcome');
 });
 
-// Route::get('/', [StudentController::class, 'index'])->name('students.index2');
+Route::get('/', [StudentController::class, 'index'])->name('students.index');
 Route::post('/students', [StudentController::class, 'store'])->name('students.store');
-
-
-
